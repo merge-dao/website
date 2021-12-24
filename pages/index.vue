@@ -139,12 +139,7 @@
             />
           </div>
           <div
-            class="
-              col-span-12
-              mb-16
-              text-center
-              sm:mb-0 sm:col-span-10 sm:text-left sm:ml-3
-            "
+            class="col-span-12 mb-16 text-center sm:mb-0 sm:col-span-10 sm:text-left sm:ml-3"
           >
             <h4 class="text-xl md:text-2xl mb-1.5">
               <Link
@@ -187,12 +182,7 @@
             />
           </div>
           <div
-            class="
-              col-span-12
-              mb-16
-              text-center
-              sm:mb-0 sm:col-span-10 sm:text-left sm:ml-3
-            "
+            class="col-span-12 mb-16 text-center sm:mb-0 sm:col-span-10 sm:text-left sm:ml-3"
           >
             <h4 class="text-xl md:text-2xl mb-1.5">
               <Link
@@ -238,12 +228,7 @@
               />
             </div>
             <div
-              class="
-                col-span-12
-                mb-16
-                text-center
-                sm:mb-0 sm:col-span-4 sm:text-left sm:ml-3 sm:mr-10
-              "
+              class="col-span-12 mb-16 text-center sm:mb-0 sm:col-span-4 sm:text-left sm:ml-3 sm:mr-10"
             >
               <h4 class="text-xl md:text-2xl mb-1.5">
                 <Link
@@ -342,13 +327,7 @@
               />
             </div>
             <div
-              class="
-                col-span-12
-                mb-16
-                sm:mb-0
-                text-center
-                sm:col-span-4 sm:text-left sm:ml-3 sm:mr-10
-              "
+              class="col-span-12 mb-16 sm:mb-0 text-center sm:col-span-4 sm:text-left sm:ml-3 sm:mr-10"
             >
               <h4 class="text-xl md:text-2xl mb-1.5">
                 <Link
@@ -390,13 +369,7 @@
               />
             </div>
             <div
-              class="
-                col-span-12
-                mb-16
-                sm:mb-0
-                text-center
-                sm:col-span-4 sm:text-left sm:ml-3
-              "
+              class="col-span-12 mb-16 sm:mb-0 text-center sm:col-span-4 sm:text-left sm:ml-3"
             >
               <h4 class="text-xl md:text-2xl mb-1.5">
                 <Link
@@ -441,14 +414,7 @@
       </div>
       <div class="max-w-3xl mx-auto">
         <div
-          class="
-            flex flex-col
-            sm:flex-row
-            text-center
-            sm:text-left
-            items-center
-            mb-12
-          "
+          class="flex flex-col sm:flex-row text-center sm:text-left items-center mb-12"
         >
           <div class="flex items-center justify-center max-h-36 mb-5 sm:mb-0">
             <Icon name="ipfs-illustrations-how-1" class="w-40 max-h-32" />
@@ -472,14 +438,7 @@
           </div>
         </div>
         <div
-          class="
-            flex flex-col
-            sm:flex-row
-            text-center
-            sm:text-left
-            items-center
-            mb-12
-          "
+          class="flex flex-col sm:flex-row text-center sm:text-left items-center mb-12"
         >
           <div class="flex items-center justify-center max-h-36 mb-5 sm:mb-0">
             <Icon name="ipfs-illustrations-how-4" class="w-40 max-h-32" />
@@ -495,14 +454,7 @@
           </div>
         </div>
         <div
-          class="
-            flex flex-col
-            sm:flex-row
-            text-center
-            sm:text-left
-            items-center
-            mb-12
-          "
+          class="flex flex-col sm:flex-row text-center sm:text-left items-center mb-12"
         >
           <div class="flex items-center justify-center max-h-36 mb-5 sm:mb-0">
             <Icon name="ipfs-illustrations-how-3" class="w-40 max-h-32" />
@@ -530,14 +482,7 @@
           </div>
         </div>
         <div
-          class="
-            flex flex-col
-            sm:flex-row
-            text-center
-            sm:text-left
-            items-center
-            mb-12
-          "
+          class="flex flex-col sm:flex-row text-center sm:text-left items-center mb-12"
         >
           <div class="flex items-center justify-center max-h-36 mb-5 sm:mb-0">
             <Icon name="ipfs-illustrations-how-2" class="w-40 max-h-32" />
@@ -557,13 +502,7 @@
           </div>
         </div>
         <div
-          class="
-            flex flex-col
-            sm:flex-row
-            text-center
-            sm:text-left
-            items-center
-          "
+          class="flex flex-col sm:flex-row text-center sm:text-left items-center"
         >
           <div class="flex items-center justify-center max-h-36 mb-5 sm:mb-0">
             <Icon name="ipfs-illustrations-how-5" class="w-40 max-h-32" />
@@ -649,15 +588,7 @@
         No matter what you do with the web, IPFS helps make it better today.
       </p>
       <div
-        class="
-          grid grid-cols-1
-          sm:grid-cols-3
-          gap-y-12
-          sm:gap-y-0
-          gap-x-8
-          mt-12
-          sm:mt-24
-        "
+        class="grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:gap-y-0 gap-x-8 mt-12 sm:mt-24"
       >
         <div class="flex flex-col">
           <div class="max-h-24 mb-12">
@@ -703,14 +634,7 @@
         </div>
       </div>
       <div
-        class="
-          grid grid-cols-1
-          sm:grid-cols-3
-          gap-y-12
-          sm:gap-y-0
-          gap-x-8
-          mt-12
-        "
+        class="grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:gap-y-0 gap-x-8 mt-12"
       >
         <div class="flex flex-col">
           <div class="max-h-24 mb-12">
@@ -766,14 +690,7 @@
       <div class="grid grid-cols-2">
         <div class="col-span-2 md:col-span-1 mb-8 md:mb-0 md:mr-12">
           <div
-            class="
-              video-preview
-              max-w-sm
-              md:max-w-xl
-              mx-auto
-              md:mx-0 md:float-right
-              cursor-pointer
-            "
+            class="video-preview max-w-sm md:max-w-xl mx-auto md:mx-0 md:float-right cursor-pointer"
           >
             <div
               class="relative overflow-hidden rounded border-2 border-gray-300"
@@ -795,27 +712,11 @@
               <img
                 :src="$relativity('/images/meet-builders-thumbnail-pinata.png')"
                 alt="Meet the Builders: Pinata"
-                class="
-                  video-preview-thumbnail
-                  filter
-                  brightness-75
-                  transform
-                  transition-transform
-                  duration-300
-                "
+                class="video-preview-thumbnail filter brightness-75 transform transition-transform duration-300"
               />
               <Icon
                 name="video-play"
-                class="
-                  absolute
-                  top-0
-                  bottom-0
-                  left-0
-                  right-0
-                  mx-auto
-                  my-auto
-                  w-1/6
-                "
+                class="absolute top-0 bottom-0 left-0 right-0 mx-auto my-auto w-1/6"
               />
             </div>
           </div>
@@ -907,13 +808,7 @@
             >
               <a
                 :href="video.url"
-                class="
-                  relative
-                  overflow-hidden
-                  rounded
-                  border-2 border-gray-300
-                  mb-2
-                "
+                class="relative overflow-hidden rounded border-2 border-gray-300 mb-2"
                 @click="
                   () =>
                     onCTAClick({
@@ -926,28 +821,11 @@
                 <img
                   :src="video.thumbnail"
                   :alt="video.title"
-                  class="
-                    video-preview-thumbnail
-                    max-h-48
-                    filter
-                    brightness-75
-                    transform
-                    transition-transform
-                    duration-300
-                  "
+                  class="video-preview-thumbnail max-h-48 filter brightness-75 transform transition-transform duration-300"
                 />
                 <Icon
                   name="video-play"
-                  class="
-                    absolute
-                    top-0
-                    bottom-0
-                    left-0
-                    right-0
-                    mx-auto
-                    my-auto
-                    w-1/5
-                  "
+                  class="absolute top-0 bottom-0 left-0 right-0 mx-auto my-auto w-1/5"
                 />
               </a>
               <Link
