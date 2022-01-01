@@ -1,16 +1,18 @@
 <template>
   <div>
     <seo-tags
-      title="IPFS Powers the Distributed Web"
-      description="The InterPlanetary File System is a peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open."
+      title="Matter Protocol the basic rules for building the NFT world"
+      description="The matter protocol is a NFT synthesis and splitting protocol, which combines chaotic NFTs with a simple rule."
     />
-    <StarfieldHero title="IPFS powers the Distributed Web">
+    <StarfieldHero
+      title="Matter Protocol the basic rules for building the NFT world"
+    >
       <h2 class="text-center">
-        A peer-to-peer hypermedia protocol
+        The NFT basic law protocol，
         <br />
-        designed to preserve and grow humanity's knowledge
+        through combination and splitting,
         <br />
-        by making the web upgradeable, resilient, and more open.
+        is used to build an orderly, reliable, and complex NFT world
       </h2>
       <div class="flex flex-col sm:flex-row mt-6">
         <Button
@@ -30,14 +32,16 @@
     </StarfieldHero>
     <section id="why" class="grid-margins py-20 sm:py-36">
       <div class="text-center mb-8 sm:mb-20">
-        <h2 class="font-display mb-3">The web of tomorrow needs IPFS today</h2>
+        <h2 class="font-display mb-3">
+          The NFT of tomorrow needs matter protocol today
+        </h2>
         <p class="text-base sm:text-lg">
-          IPFS aims to surpass HTTP in order to build a better web for all of
-          us.
+          The goal of the matter protocol is to establish an order in the NFT
+          world.
         </p>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-20">
-        <div>
+      <div class="grid grid-cols-1 sm:grid-cols-1 gap-x-16 gap-y-20">
+        <!-- <div>
           <div class="flex justify-center items-center h-52 px-3">
             <Icon name="ipfs-illustration-http" class="max-w-xs h-52" />
           </div>
@@ -100,25 +104,24 @@
             vision of an open, flat web by delivering technology to make that
             vision a reality.
           </p>
-        </div>
+        </div> -->
         <div>
           <div class="flex justify-center items-center h-52 px-3">
             <Icon name="ipfs-illustration-network" class="max-w-xs h-52" />
           </div>
           <h3 class="text-center text-navy text-base sm:text-lg mb-4 font-bold">
-            Today's web is addicted to the backbone
+            Today's NFT is chaotic and disorderly
           </h3>
           <p>
-            IPFS powers the creation of diversely resilient networks that enable
-            persistent availability &mdash; with or without internet backbone
-            connectivity. This means better connectivity for the developing
-            world, during natural disasters, or just when you're on flaky coffee
-            shop wi-fi.
+            Matter Protocol will change the current status quo and organize
+            through basic rules to communicate with a richer NFT building, just
+            like 1+1=2 in the physical world. With basic rules, there will be a
+            richer form.
           </p>
         </div>
       </div>
     </section>
-    <section id="install" class="pt-20 pb-10 sm:py-20 bg-gradient-6 text-white">
+    <!-- <section id="install" class="pt-20 pb-10 sm:py-20 bg-gradient-6 text-white">
       <div class="grid-margins 2xl:px-32">
         <div class="text-center mb-16">
           <h2 class="font-display mb-3">Install IPFS</h2>
@@ -580,9 +583,9 @@
           />
         </div>
       </div>
-    </section>
-    <Divider />
-    <section class="grid-margins text-center py-20">
+    </section> -->
+    <!-- <Divider /> -->
+    <!-- <section class="grid-margins text-center py-20">
       <h2 class="font-display mb-4">IPFS can help here and now</h2>
       <p class="text-base sm:text-lg">
         No matter what you do with the web, IPFS helps make it better today.
@@ -742,8 +745,8 @@
         </div>
       </div>
     </section>
-    <Divider />
-    <section class="grid-margins py-20">
+    <Divider /> -->
+    <!-- <section class="grid-margins py-20">
       <h2 class="font-display text-center mb-12">News and more</h2>
       <div class="grid grid-cols-4">
         <div class="col-span-4 sm:col-span-1 pr-16 mb-8 sm:mb-0">
@@ -853,7 +856,7 @@
         </div>
       </div>
     </section>
-    <VideoModal ref="videoModal" />
+    <VideoModal ref="videoModal" /> -->
   </div>
 </template>
 
@@ -864,6 +867,7 @@ import StarfieldHero from '~/components/StarfieldHero';
 import VideoModal from '~/components/VideoModal.vue';
 
 export default {
+  // eslint-disable-next-line vue/no-unused-components
   components: { Button, StarfieldHero, SeoTags, VideoModal },
   data() {
     return {

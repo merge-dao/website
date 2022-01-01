@@ -6,7 +6,7 @@ module.exports = function (PIXI) {
 
   const STAR_COLORS = [0xffffff, 0xffffff];
   const FILL_COLOR = 0xffffff;
-  const LINE_COLOR = 0x6acad1;
+  const LINE_COLOR = 0x5d8ef6;
   const LINE_SPEED = 40;
   const LINE_FADE_SECONDS = 15;
   const LINE_OPACITY_MAX = 0.8;
@@ -518,9 +518,8 @@ module.exports = function (PIXI) {
         return this.end();
       }
 
-      this.nextStar = this.fromStar.links[
-        keys[Math.floor(Math.random() * keys.length)]
-      ];
+      this.nextStar =
+        this.fromStar.links[keys[Math.floor(Math.random() * keys.length)]];
       this.setNext();
 
       if (!first) {

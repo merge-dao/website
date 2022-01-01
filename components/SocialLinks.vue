@@ -11,15 +11,7 @@
     >
       <Icon
         :name="link.icon"
-        class="
-          w-8
-          h-8
-          fill-current
-          hover:opacity-75
-          transition
-          duration-300
-          ease-in-out
-        "
+        class="w-8 h-8 fill-current hover:opacity-75 transition duration-300 ease-in-out"
         :title="link.text"
       />
     </a>
@@ -32,24 +24,24 @@ import Icon from './Icon';
 const socialLinks = [
   {
     text: 'Github',
-    link: 'https://github.com/ipfs',
+    link: 'https://github.com/merge-dao',
     icon: 'github-icon',
   },
   {
     text: 'YouTube',
-    link: 'https://www.youtube.com/channel/UCdjsUXJ3QawK4O5L1kqqsew',
+    link: 'https://www.youtube.com/channel/UCZu67ixOZop6IyYJw9qmbig/about',
     icon: 'youtube-icon',
   },
   {
     text: 'Twitter',
-    link: 'http://twitter.com/ipfs',
+    link: 'http://twitter.com/mergedao',
     icon: 'twitter-icon',
   },
-  {
-    text: 'LinkedIn',
-    link: 'https://www.linkedin.com/company/protocollabs/',
-    icon: 'linkedin-icon',
-  },
+  // {
+  //   text: 'LinkedIn',
+  //   link: 'https://www.linkedin.com/company/protocollabs/',
+  //   icon: 'linkedin-icon',
+  // },
 ];
 
 export default {

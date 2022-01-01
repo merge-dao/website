@@ -6,19 +6,15 @@
     <div class="flex-shrink lg:max-w-lg xl:max-w-xl mb-4 lg:mb-0">
       <h2>Stay informed</h2>
       <p class="mt-2 mr-2">
-        Sign up for the IPFS Weekly newsletter (<a
-          class="text-blueGreenLight hover:underline"
-          href="https://blog.ipfs.io/?tags=weekly"
-          >example</a
-        >) for the latest on releases, upcoming developments, community events,
-        and more.
+        Sign up for the matter protocol Weekly newsletter for the latest on
+        releases, upcoming developments, community events, and more.
       </p>
     </div>
     <form
       id="mc-embedded-subscribe-form"
       name="mc-embedded-subscribe-form"
       class="flex lg:justify-end max-w-2xl xl:w-3/5"
-      action="https://ipfs.us4.list-manage.com/subscribe/post?u=25473244c7d18b897f5a1ff6b&amp;id=cad54b2230"
+      action="https://gmail.us20.list-manage.com/subscribe/post?u=b536d21342229892e5e61c95b&amp;id=5ad4b9f8d2"
       method="post"
       target="_blank"
       @submit="onSubmit"

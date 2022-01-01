@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center text-sm">
-    <a
+    <!-- <a
       href="https://protocol.ai"
       target="_blank"
       class="mr-2 inline-block align-middle"
@@ -11,18 +11,18 @@
         title="Protocol Labs"
         class="w-4 h-4 fill-current"
       />
-    </a>
+    </a> -->
     <span>
       ©
       <a
         class="text-blueGreenLight hover:underline"
-        href="https://protocol.ai"
+        href="https://matter.services/"
         target="_blank"
         @click="onClick"
       >
-        Protocol Labs
+        Matter Protocol
       </a>
-      | Except as
+      <!-- | Except as
       <a
         class="text-blueGreenLight hover:underline"
         href="https://protocol.ai/legal/"
@@ -59,20 +59,20 @@
         class="text-blueGreenLight hover:underline"
         :item="{ link: '/legal', text: 'DMCA' }"
         :on-click="onLinkClick"
-      />
+      /> -->
     </span>
   </div>
 </template>
 
 <script>
-import Link from './Link';
-import Icon from './Icon.vue';
+// import Link from './Link';
+// import Icon from './Icon.vue';
 
 export default {
   name: 'FooterLegal',
   components: {
-    Link,
-    Icon,
+    // Link,
+    // Icon,
   },
   methods: {
     onClick(event, isSvg) {

@@ -20,7 +20,7 @@ import IpfsIllustrationNetwork from '~/assets/icons/ipfs-illustration-network.sv
 import IpfsIllustrationCreators from '~/assets/icons/ipfs-illustration-creators.svg?inline';
 import IpfsIllustrationService from '~/assets/icons/ipfs-illustration-service.svg?inline';
 import ProtocolLabsIcon from '~/assets/icons/protocol-labs-icon.svg?inline';
-import IpfsLogo from '~/assets/icons/ipfs-logo.svg?inline';
+import IpfsLogo from '~/assets/icons/icon.svg?inline';
 import YoutubeIcon from '~/assets/icons/youtube-icon.svg?inline';
 import LinkedinIcon from '~/assets/icons/linkedin-icon.svg?inline';
 import GithubIcon from '~/assets/icons/github-icon.svg?inline';
@@ -46,7 +46,7 @@ export default {
     IpfsIllustrationCreators,
     IpfsIllustrationService,
     ProtocolLabsIcon,
-    IpfsLogo,
+    MatterLogo: IpfsLogo,
     YoutubeIcon,
     LinkedinIcon,
     GithubIcon,

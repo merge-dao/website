@@ -8,18 +8,7 @@
       <div
         role="dialog"
         aria-modal="true"
-        class="
-          modal-content
-          absolute
-          bg-white
-          rounded
-          w-11/12
-          md:w-4/5
-          max-w-screen-lg max-h-screen
-          overflow-y-auto
-          p-4
-          lg:p-8
-        "
+        class="modal-content absolute bg-white rounded w-11/12 md:w-4/5 max-w-screen-lg max-h-screen overflow-y-auto p-4 lg:p-8"
       >
         <h1 class="type-h5 font-semibold text-xl text-primary mr-4">
           <Link
@@ -38,17 +27,7 @@
         </div>
         <button
           type="button"
-          class="
-            absolute
-            top-0
-            right-0
-            mt-4
-            mr-4
-            text-blueGreen
-            hover:underline
-            font-bold
-            text-xl
-          "
+          class="absolute top-0 right-0 mt-4 mr-4 text-blueGreen hover:underline font-bold text-xl"
           @click="closeModal()"
         >
           X

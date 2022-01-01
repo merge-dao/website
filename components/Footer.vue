@@ -16,14 +16,7 @@
             >
               <Link
                 :item="item"
-                class="
-                  footer-link
-                  font-medium
-                  hover:opacity-75
-                  transition-opacity
-                  duration-300
-                  ease-in-out
-                "
+                class="footer-link font-medium hover:opacity-75 transition-opacity duration-300 ease-in-out"
               />
             </li>
           </ul>
@@ -42,16 +35,16 @@ import FooterLegal from './FooterLegal';
 import NewsletterForm from './NewsletterForm';
 
 const footerNavigation = [
-  { text: 'Blog & news', link: 'https://blog.ipfs.io/' },
-  { text: 'Press', link: '/media' },
-  {
-    text: 'Code of conduct',
-    link: 'https://github.com/ipfs/community/blob/master/code-of-conduct.md',
-  },
-  {
-    text: 'Security',
-    link: 'https://github.com/ipfs/community/blob/master/CONTRIBUTING.md#security-issues',
-  },
+  { text: 'Blog & news', link: 'http://mergedao.medium.com' },
+  // { text: 'Press', link: '/media' },
+  // {
+  //   text: 'Code of conduct',
+  //   link: 'https://github.com/ipfs/community/blob/master/code-of-conduct.md',
+  // },
+  // {
+  //   text: 'Security',
+  //   link: 'https://github.com/ipfs/community/blob/master/CONTRIBUTING.md#security-issues',
+  // },
 ];
 
 export default {

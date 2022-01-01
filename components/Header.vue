@@ -1,16 +1,7 @@
 <template>
   <header
     ref="header"
-    class="
-      top-0
-      w-full
-      text-white
-      transition
-      duration-300
-      ease-out
-      transform
-      z-50
-    "
+    class="top-0 w-full text-white transition duration-300 ease-out transform z-50"
     :class="[
       {
         '-translate-y-full': navVisibility.navSticky,
@@ -25,13 +16,7 @@
   >
     <div class="grid-margins flex justify-between items-center h-20">
       <Link
-        class="
-          hover:opacity-75
-          transition-opacity
-          duration-300
-          ease-in-out
-          mobile-nav-link
-        "
+        class="flex items-center hover:opacity-75 transition-opacity duration-300 ease-in-out mobile-nav-link"
         :item="{ link: '/', text: 'Homepage (logo)' }"
       >
         <!--
@@ -41,17 +26,18 @@
           We could parse document.referrer but this works also.
         -->
         <Icon
-          name="ipfs-logo"
-          class="w-32 h-20 fill-current"
+          name="matter-logo"
+          class="w-10 h-10 fill-current"
           @click="() => onLinkClick({ link: '/', text: 'Homepage (logo)' })"
         />
+        <span class="pl-2 font-extrabold">Matter Protocol</span>
       </Link>
-      <nav class="hidden md:flex justify-between w-full max-w-lg">
+      <nav class="hidden md:flex justify-end w-full max-w-lg">
         <Link
           v-for="link in headerLinks"
           :key="link.text"
           :item="{ link: link.link, text: link.text }"
-          class="nav-link font-display font-medium relative"
+          class="nav-link font-display px-6 font-medium relative"
           :on-click="onLinkClick"
         />
       </nav>
@@ -74,12 +60,12 @@ import Link from './Link';
 import Icon from './Icon.vue';
 
 const headerLinks = [
-  { text: 'About', link: '/#why' },
-  { text: 'Install', link: '/#install' },
-  { text: 'Docs', link: 'https://docs.ipfs.io/' },
-  { text: 'Team', link: '/team' },
-  { text: 'Blog', link: 'https://blog.ipfs.io/' },
-  { text: 'Help', link: '/help' },
+  { text: 'App', link: '/#' },
+  // { text: 'Install', link: '/#install' },
+  // { text: 'Docs', link: 'https://docs.ipfs.io/' },
+  // { text: 'Team', link: '/team' },
+  { text: 'Blog', link: 'http://mergedao.medium.com' },
+  // { text: 'Help', link: '/help' },
 ];
 
 export default {
