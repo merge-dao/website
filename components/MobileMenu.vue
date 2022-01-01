@@ -27,12 +27,8 @@ import { mapState } from 'vuex';
 import SocialLinks from './SocialLinks';
 
 const mobileNavLinks = [
-  { text: 'About', link: '/#why' },
-  { text: 'Install', link: '/#install' },
-  { text: 'Docs', link: 'https://docs.ipfs.io/' },
-  { text: 'Team', link: '/team' },
-  { text: 'Blog', link: 'https://blog.ipfs.io/' },
-  { text: 'Help', link: '/help' },
+  { text: 'App', link: '/#' },
+  { text: 'Blog', link: 'https://mergedao.' },
 ];
 
 export default {

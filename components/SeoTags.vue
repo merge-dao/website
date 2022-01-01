@@ -15,7 +15,7 @@ export default {
     },
     image: {
       type: String,
-      default: 'https://ipfs.io/images/social-card.png',
+      default: '',
     },
   },
 
@@ -55,7 +55,7 @@ export default {
         {
           hid: 'twitter:site',
           name: 'twitter:site',
-          content: '@ipfs',
+          content: '@mergedao',
         },
         {
           hid: 'og:title',

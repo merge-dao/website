@@ -36,15 +36,6 @@ import NewsletterForm from './NewsletterForm';
 
 const footerNavigation = [
   { text: 'Blog & news', link: 'http://mergedao.medium.com' },
-  // { text: 'Press', link: '/media' },
-  // {
-  //   text: 'Code of conduct',
-  //   link: 'https://github.com/ipfs/community/blob/master/code-of-conduct.md',
-  // },
-  // {
-  //   text: 'Security',
-  //   link: 'https://github.com/ipfs/community/blob/master/CONTRIBUTING.md#security-issues',
-  // },
 ];
 
 export default {

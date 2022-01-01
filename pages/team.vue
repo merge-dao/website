@@ -18,7 +18,7 @@ export default {
   },
   head() {
     return {
-      title: 'Team | IPFS',
+      title: 'Team | Matter Protocol',
     };
   },
 };
