@@ -28,7 +28,7 @@ import SocialLinks from './SocialLinks';
 
 const mobileNavLinks = [
   { text: 'App', link: '/#' },
-  { text: 'Blog', link: 'https://mergedao.' },
+  { text: 'Blog', link: 'https://mergedao.medium.com/' },
 ];
 
 export default {
