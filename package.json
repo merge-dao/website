@@ -32,7 +32,7 @@
     "nuxt": "^2.15.4",
     "nuxt-mq": "^2.0.2",
     "pixi.js": "^4.8.8",
-    "react-i18next": "^11.15.3"
+    "vue-i18n": "^8.27.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",

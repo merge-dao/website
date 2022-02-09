@@ -1,0 +1,19 @@
+{
+  "index": {
+    "title": "Matter Protocol the basic rules for building the NFT world"
+  },
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "english": "English version",
+    "chinese": "简体中文"
+  },
+  "home": {
+    "title": "Welcome",
+    "introduction": "This is an introduction in English."
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  }
+}
