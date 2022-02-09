@@ -23,10 +23,10 @@ export const mutations = {
     state.routerLocation = data;
   },
   setLang: (state, locale) => {
-    console.log('locale: ', locale);
+    console.log('app-locale: ', locale);
     if (state.locales.indexOf(locale) !== -1) {
       state.locale = locale;
-      console.log('state.locale: ', state.locale);
+      console.log('app-state.locale: ', state.locale);
     }
   },
 };
