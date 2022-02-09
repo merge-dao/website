@@ -19,9 +19,6 @@ export default function ({
   // Set locale
   store.commit('appState/setLang', locale);
   app.i18n.locale = store.state.appState.locale;
-  console.log('store.state.appState.locale: ', store.state.appState.locale);
-  console.log('app.i18n.locale : ', app.i18n.locale);
-  console.log('route.fullPath: ', route.fullPath);
   // If route is /<defaultLocale>/... -> redirect to /...
   // if (
   //   locale === defaultLocale &&
@@ -37,7 +34,4 @@ export default function ({
   if (!query.lang) {
     return redirect(route.fullPath + '?lang=' + locale);
   }
-  // else {
-  //   return redirect(route.fullPath);
-  // }
 }

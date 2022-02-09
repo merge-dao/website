@@ -3,7 +3,7 @@ export const state = () => ({
   navHeight: 0,
   routerLocation: {},
   locales: ['en-US', 'zh-CN'],
-  locale: 'zh-CN',
+  locale: 'en-US',
 });
 
 export const mutations = {
