@@ -4,7 +4,9 @@
       title="Matter Protocol the basic rules for building the NFT world"
       description="The matter protocol is a NFT synthesis and splitting protocol, which combines chaotic NFTs with a simple rule."
     />
-    <StarfieldHero :title="$t('index.title')">
+    <StarfieldHero
+      title="Matter Protocol the basic rules for building the NFT world"
+    >
       <h2 class="text-center">
         The NFT basic law protocol，
         <br />
@@ -75,10 +77,6 @@ export default {
     };
   },
   async fetch() {
-    console.log(
-      'this.$store.state.appState.locale:',
-      this.$store.state.appState.locale
-    );
     const [latestPosts, latestNews, latestVideos] = await Promise.allSettled([
       fetch('https://blog.ipfs.io/index.json')
         .then((res) => res.json())
