@@ -4,9 +4,7 @@
       title="Matter Protocol the basic rules for building the NFT world"
       description="The matter protocol is a NFT synthesis and splitting protocol, which combines chaotic NFTs with a simple rule."
     />
-    <StarfieldHero
-      title="Matter Protocol the basic rules for building the NFT world"
-    >
+    <StarfieldHero :title="$t('index.title')">
       <h2 class="text-center">
         The NFT basic law protocol，
         <br />
