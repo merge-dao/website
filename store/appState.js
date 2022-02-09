@@ -2,6 +2,8 @@ export const state = () => ({
   mobileNavActive: false,
   navHeight: 0,
   routerLocation: {},
+  locales: ['en-US', 'zh-CN'],
+  locale: 'zh-CN',
 });
 
 export const mutations = {
