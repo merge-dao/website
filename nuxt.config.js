@@ -1,18 +1,9 @@
-/*
- * @Author: your name
- * @Date: 2022-01-06 12:01:27
- * @LastEditTime: 2022-02-09 18:31:11
- * @LastEditors: Please set LastEditors
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- * @FilePath: /jd/Users/jiaobingqian/work/crypto/website/nuxt.config.js
- */
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   generate: {
     fallback: 'matter-404.html',
-    // routes: ['/', '/about', '/zh-CN', '/zh-CN/about'],
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -37,7 +28,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/countly-analytics','~/plugins/i18n.js'],
+  plugins: ['~/plugins/countly-analytics'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -80,7 +71,6 @@ export default {
 
   router: {
     base: '/',
-    middleware: 'i18n',
   },
 
   publicRuntimeConfig: {

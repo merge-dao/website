@@ -2,13 +2,12 @@ export const state = () => ({
   mobileNavActive: false,
   navHeight: 0,
   routerLocation: {},
-  locales: ['en-US', 'zh-CN'],
-  locale: 'zh-CN',
 });
 
 export const mutations = {
   toggleMobileNav: (state, data) => {
     state.mobileNavActive = data;
+
     const body = document.querySelector('body');
     if (body.classList.contains('overflow-hidden')) {
       body.classList.remove('overflow-hidden');
