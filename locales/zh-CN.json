@@ -1,5 +1,38 @@
 {
   "index": {
-    "title": "Matter协议是构建NFT世界规则的基础协议"
+    "seo":{
+      "title":"Matter协议是构建NFT世界规则的基础协议",
+      "desc":"Matter协议是一个 NFT 合成和分裂协议，它结合了混沌 NFT 和一个简单的规则。"
+    },
+    "title": "Matter协议是构建NFT世界规则的基础协议",
+    "h2":{
+      "l1":"NFT基本法协议",
+      "l2":"通过组合和分裂,",
+      "l3":"建立一个有序的，可靠的，复杂的NFT世界"
+    },
+    "button":{
+      "start":"快速上手",
+      "work":"工作指南"
+    },
+    "why":{
+      "h2":"明天的NFT需要今天的matter协议",
+      "p":"Matter协议的目标是在NFT世界中建立秩序。",
+      "h3":"如今的NFT混乱无序",
+      "desc":"Matter协议将改变现状，通过基础协议进行组织，与更丰富的NFT构件进行通信，就像物理世界中的 1+1=2 一样。有了基本的规则，就会有更丰富的形式。"
+    }
+  },
+  "header":{
+    "app":"应用",
+    "blog":"博客"
+  },
+  "footer":{
+    "stayInformed": "消息订阅",
+    "desc":"注册获取matter协议每周时事通讯，获取最新的发布、即将到来的开发、社区活动等。",
+    "newsletter":"请给我发送时事通讯",
+    "subscribe":"订阅",
+    "blogNews":"博客 & 新闻"
+  },
+  "protocol":{
+    "name":"Matter 协议"
   }
 }

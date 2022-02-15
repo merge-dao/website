@@ -29,6 +29,7 @@ export default {
   },
   computed: {
     link() {
+      console.log('ensureExt(this.item.link): ', ensureExt(this.item.link));
       return ensureExt(this.item.link);
     },
     exact() {

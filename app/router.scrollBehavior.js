@@ -4,6 +4,10 @@ export default async function (to, from, savedPosition) {
   }
 
   const findEl = async (hash, x) => {
+    console.log('hash: ', hash);
+    if (hash.indexOf('#') > -1) {
+      return false;
+    }
     return (
       document.querySelector(hash) ||
       new Promise((resolve, reject) => {
@@ -19,6 +23,9 @@ export default async function (to, from, savedPosition) {
 
   if (to.hash) {
     const el = await findEl(to.hash);
+    if (!el) {
+      return;
+    }
     if ('scrollBehavior' in document.documentElement.style) {
       return window.scrollTo({ top: el.offsetTop, behavior: 'smooth' });
     } else {

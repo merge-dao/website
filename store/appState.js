@@ -27,7 +27,6 @@ export const mutations = {
     console.log('app-locale: ', locale);
     if (state.locales.indexOf(locale) !== -1) {
       state.locale = locale;
-      console.log('app-state.locale: ', state.locale);
     }
   },
 };

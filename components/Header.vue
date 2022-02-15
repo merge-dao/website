@@ -1,7 +1,16 @@
 <template>
   <header
     ref="header"
-    class="top-0 w-full text-white transition duration-300 ease-out transform z-50"
+    class="
+      top-0
+      w-full
+      text-white
+      transition
+      duration-300
+      ease-out
+      transform
+      z-50
+    "
     :class="[
       {
         '-translate-y-full': navVisibility.navSticky,
@@ -16,7 +25,15 @@
   >
     <div class="grid-margins flex justify-between items-center h-20">
       <Link
-        class="flex items-center hover:opacity-75 transition-opacity duration-300 ease-in-out mobile-nav-link"
+        class="
+          flex
+          items-center
+          hover:opacity-75
+          transition-opacity
+          duration-300
+          ease-in-out
+          mobile-nav-link
+        "
         :item="{ link: '/', text: 'Homepage (logo)' }"
       >
         <!--
@@ -30,13 +47,13 @@
           class="w-10 h-10 fill-current"
           @click="() => onLinkClick({ link: '/', text: 'Homepage (logo)' })"
         />
-        <span class="pl-2 font-extrabold">Matter Protocol</span>
+        <span class="pl-2 font-extrabold">{{ $t('protocol.name') }}</span>
       </Link>
       <nav class="hidden md:flex justify-end w-full max-w-lg">
         <Link
           v-for="link in headerLinks"
           :key="link.text"
-          :item="{ link: link.link, text: link.text }"
+          :item="{ link: link.link, text: $t('header.' + link.key) }"
           class="nav-link font-display px-6 font-medium relative"
           :on-click="onLinkClick"
         />
@@ -60,11 +77,11 @@ import Link from './Link';
 import Icon from './Icon.vue';
 
 const headerLinks = [
-  { text: 'App', link: '/#' },
+  { text: 'App', key: 'app', link: '/' },
   // { text: 'Install', link: '/#install' },
   // { text: 'Docs', link: 'https://docs.ipfs.io/' },
   // { text: 'Team', link: '/team' },
-  { text: 'Blog', link: 'http://mergedao.medium.com' },
+  { text: 'Blog', key: 'blog', link: 'http://mergedao.medium.com' },
   // { text: 'Help', link: '/help' },
 ];
 

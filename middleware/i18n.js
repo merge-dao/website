@@ -32,6 +32,9 @@ export default function ({
   //   return redirect(route.fullPath.replace(re, '/'));
   // }
   if (!query.lang) {
+    console.log('query.lang: ', query.lang);
+    console.log('locale: ', locale);
+    console.log('route.fullPath: ', route.fullPath);
     return redirect(route.fullPath + '?lang=' + locale);
   }
 }

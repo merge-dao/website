@@ -1,5 +1,38 @@
 {
   "index": {
-    "title": "Matter Protocol the basic rules for building the NFT world"
+    "seo":{
+      "title":"Matter Protocol the basic rules for building the NFT world",
+      "desc":"The matter protocol is a NFT synthesis and splitting protocol, which combines chaotic NFTs with a simple rule."
+    },
+    "title": "Matter Protocol the basic rules for building the NFT world",
+    "h2":{
+      "l1":"The NFT basic law protocol，",
+      "l2":"through combination and splitting,",
+      "l3":"is used to build an orderly, reliable, and complex NFT world"
+    },
+    "button":{
+      "start":"Get started",
+      "work":"How it works"
+    },
+    "why":{
+      "h2":"The NFT of tomorrow needs matter protocol today",
+      "p":"The goal of the matter protocol is to establish an order in the NFT world.",
+      "h3":"Today's NFT is chaotic and disorderly",
+      "desc":"Matter Protocol will change the current status quo and organize through basic rules to communicate with a richer NFT building, just like 1+1=2 in the physical world. With basic rules, there will be a richer form."
+    }
+  },
+  "header":{
+    "app":"APP",
+    "blog":"Blog"
+  },
+  "footer":{
+    "stayInformed": "Stay Informed",
+    "desc":"Sign up for the matter protocol Weekly newsletter for the latest on releases, upcoming developments, community events, and more.",
+    "newsletter":"Please send me the newsletter",
+    "subscribe":"Subscribe",
+    "blogNews":"Blog & news"
+  },
+  "protocol":{
+    "name":"Matter Protocol"
   }
 }

@@ -20,7 +20,7 @@
         target="_blank"
         @click="onClick"
       >
-        Matter Protocol
+        {{ $t('protocol.name') }}
       </a>
       <!-- | Except as
       <a

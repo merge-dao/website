@@ -15,8 +15,15 @@
               @click="onLinkClick(item)"
             >
               <Link
-                :item="item"
-                class="footer-link font-medium hover:opacity-75 transition-opacity duration-300 ease-in-out"
+                :item="{ link: item.link, text: $t('footer.' + item.key) }"
+                class="
+                  footer-link
+                  font-medium
+                  hover:opacity-75
+                  transition-opacity
+                  duration-300
+                  ease-in-out
+                "
               />
             </li>
           </ul>
@@ -35,7 +42,7 @@ import FooterLegal from './FooterLegal';
 import NewsletterForm from './NewsletterForm';
 
 const footerNavigation = [
-  { text: 'Blog & news', link: 'http://mergedao.medium.com' },
+  { text: 'Blog & news', key: 'blogNews', link: 'http://mergedao.medium.com' },
 ];
 
 export default {
@@ -52,6 +59,12 @@ export default {
         href: item.link,
       });
     },
+  },
+  mounted() {
+    const locale = this.$i18n.locale;
+    const messages = this.$i18n.messages;
+    const blogNewsText = messages[locale].footer.blogNews;
+    this.footerNavigation[0].text = blogNewsText;
   },
 };
 </script>
