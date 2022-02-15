@@ -35,6 +35,12 @@ export default function ({
     console.log('query.lang: ', query.lang);
     console.log('locale: ', locale);
     console.log('route.fullPath: ', route.fullPath);
-    return redirect(route.fullPath + '?lang=' + locale);
+    if (route.fullPath.indexOf('lang') > -1) {
+      if (route.fullPath.indexOf(locale) === -1) {
+        return redirect(route.fullPath);
+      }
+    } else {
+      return redirect(route.fullPath + '?lang=' + locale);
+    }
   }
 }
