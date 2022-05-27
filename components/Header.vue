@@ -61,7 +61,7 @@ import Icon from './Icon.vue';
 
 const headerLinks = [
   { text: 'App', link: 'https://app.matter.services' },
-  { text: 'Github', link: '' },
+  { text: 'Github', link: 'https://github.com/merge-dao' },
   // { text: 'Install', link: '/#install' },
   // { text: 'Docs', link: 'https://docs.ipfs.io/' },
   // { text: 'Team', link: '/team' },
