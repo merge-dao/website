@@ -60,11 +60,12 @@ import Link from './Link';
 import Icon from './Icon.vue';
 
 const headerLinks = [
-  { text: 'App', link: '/#' },
-  // { text: 'Install', link: '/#install' },
+  { text: 'App', link: 'https://app.matter.services' },
+  { text: 'Github', link: 'https://github.com/merge-dao' },
+  { text: 'Discord', link: 'https://discord.gg/PMQsgaBwMX' },
   // { text: 'Docs', link: 'https://docs.ipfs.io/' },
   // { text: 'Team', link: '/team' },
-  { text: 'Blog', link: 'http://mergedao.medium.com' },
+  { text: 'Blog', link: 'https://mergedao.medium.com' },
   // { text: 'Help', link: '/help' },
 ];
 
