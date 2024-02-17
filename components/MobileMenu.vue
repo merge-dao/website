@@ -27,7 +27,7 @@ import { mapState } from 'vuex';
 import SocialLinks from './SocialLinks';
 
 const mobileNavLinks = [
-  { text: 'App', link: 'https://app.matter.services' },
+  { text: 'App', link: 'https://app.matter.dog' },
   { text: 'Github', link: 'https://github.com/merge-dao' },
   { text: 'Discord', link: 'https://discord.gg/PMQsgaBwMX' },
   // { text: 'Docs', link: 'https://docs.ipfs.io/' },
@@ -131,6 +131,7 @@ export default {
 .transition-content-leave-active {
   @apply transition transform duration-300 ease-in-out opacity-100 scale-100;
 }
+
 .transition-content-enter,
 .transition-content-leave-to {
   @apply opacity-0 scale-105;

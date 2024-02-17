@@ -60,7 +60,7 @@ import Link from './Link';
 import Icon from './Icon.vue';
 
 const headerLinks = [
-  { text: 'App', link: 'https://app.matter.services' },
+  { text: 'App', link: 'https://app.matter.dog' },
   { text: 'Github', link: 'https://github.com/merge-dao' },
   { text: 'Discord', link: 'https://discord.gg/PMQsgaBwMX' },
   // { text: 'Docs', link: 'https://docs.ipfs.io/' },
@@ -209,6 +209,7 @@ export default {
 .hamburger-icon::before {
   top: 10px;
 }
+
 .hamburger-icon::after {
   top: 20px;
 }
